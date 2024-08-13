@@ -1,0 +1,315 @@
+* {
+  box-sizing: border-box;
+}
+.all {
+  width: 1400px;
+  margin: 0 auto
+}
+.main-wraper {
+  display: flex;
+  width: 1050px;
+  margin: 0 auto;
+}
+.left-wraper {
+  width: 275px;
+  height: 570px;
+  border: 2px solid black;
+  background-color: white;
+  padding: 20px;
+  font-size: 15px;
+}
+.left-wraper p{
+  font-size: 20px;
+}
+.arro-button {
+  position: absolute;
+  left: 320px;
+  top: 30px;
+  border:3px solid black ;
+  border-left: none ;
+  border-top: none;
+  border-bottom: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: -60px;
+}
+.right-wraper {
+  position: relative;
+  background-image: url(../src/game2.jpg);
+  background-size: 710px 630px;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 712px;
+}
+.img2 {
+  position: absolute;
+  width: 711px;
+  height:190px;
+  left: -1px;
+  top: 377px;
+
+}
+.img3 {
+  position: absolute;
+  width: 546px;
+  height: 221px;
+  left: 80px;
+  top: 254px;
+}
+.equation {
+  position: absolute;
+  left: 245px;
+  top: 25px;
+  width: 200px;
+  height: 52;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 10px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.main-spain {
+  position: relative;
+  background-color: #93dede;
+
+  width: 80px;
+  height: 45px;
+  border-radius: 10px;
+  margin: 3px 10px;
+}
+.span1 {
+  position: absolute;
+  left: 7px;
+}
+.span2 {
+  position: absolute;
+  left: 6px;
+  top: 4px;
+}
+.span3 {
+  position: absolute;
+  top: 11px;
+  left: 25px;
+}
+.span4 {
+  position: absolute;
+  top: 23px;
+  left: 8px;
+}
+.button-wraper {
+  position: absolute;
+  right: 60px;
+  top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+}
+.button-wraper button {
+background-color: white;
+height: 50px;
+width: 50px;
+border-radius: 10px;
+border: 2px solid #828282;
+}
+.left-operator-button {
+  width: 220px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left:15px;
+  top: 400px;
+}
+.operator-button {
+  width: 35px;
+  height: 40px;
+  border: 1px solid #828282;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 35px;
+
+}
+.input-box {
+  width: 50px;
+  height: 40px;
+  border: 1px solid #828282;
+  border-radius: 10px;
+  background-color: white;
+}
+.right-operator-button {
+  width: 220px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  right: 10px;
+  top: 400px;
+}
+.left-equation-box-wraper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+position: absolute;
+left: 115px;
+top: 250px;
+}
+.left-equation{
+  height: 65px;
+    width: 65px;
+    background-color: rgb(135 238 140);
+    border-radius: 10px;
+    border: 3px solid green;
+}
+.span11 {
+  font-size: 25px;
+  position: absolute;
+  left: 30px;
+}
+.span22 {
+  font-size: 25px;
+  position: absolute;
+  left: 28px;
+  top: 4px;
+}
+.span44 {
+  font-size: 25px;
+  position: absolute;
+  top: 28px;
+  left: 30px;
+}
+.span55 {
+  position: absolute;
+  left: 50px;
+  top: 16px;
+  font-size: 25px;
+}
+.left-equation-button {
+    border-radius: 10px;
+    background-color: transparent;
+    border: transparent;
+    margin: 0;
+    padding-left: 3px;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 35px;
+}
+.right-equation-box-wraper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+  height: 50px;
+position: absolute;
+right: 125px;
+top: 250px;
+}
+.right-equation{
+  height: 65px;
+    width: 65px;
+    background-color: rgb(135 238 140);
+    border-radius: 33px;
+    border: 3px solid green;
+}
+.span111 {
+  position: absolute;
+    left: 30px;
+    top: 10px;
+    font-size: 30px;
+}
+.two-input {
+  min-height: 65px;
+  width: 70px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 3px solid #ababab;
+    display: flex;
+    font-size: 30px;
+}
+.two-input2 {
+  height: 65px;
+  width: 70px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 3px solid #ababab;
+    display: flex;
+    font-size: 30px;
+}
+.check-button {
+  position: absolute;
+  left: 310px;
+  top: 500px;
+}
+.check-button button {
+  height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #363eee;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+.chdiv {
+  position: absolute;
+    top: 130px;
+    left: 670px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+.chdiv p{
+  text-align: center; 
+}
+.main-spain-ch {
+  position: relative;
+  background-color: #93dede;
+
+  width: 80px;
+  height: 45px;
+  border-radius: 10px;
+  margin: 3px 10px;
+}
+.span1-ch {
+  position: absolute;
+  left: -65px;
+}
+.span2-ch {
+  position: absolute;
+  left: -67px;
+  top: 4px;
+}
+.span3-ch {
+  position: absolute;
+  top: 11px;
+  left: -50px;
+  width: 100px;
+}
+.span4-ch {
+  position: absolute;
+  top: 23px;
+  left: -65px;
+}
+
+.green {
+  border: 4px solid green;
+}
+.red {
+  border: 4px solid red;
+}
+.infocs {
+  background-color: whitesmoke;
+  position: absolute;
+  left: 700px;
+  top: 300px;
+  height: 180px;
+  width: 180px;
+  border-radius: 10px;
+}
+.backgrund{
+  background-color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: .2;
+}

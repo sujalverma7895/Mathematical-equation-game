@@ -1,0 +1,347 @@
+* {
+  box-sizing: border-box;
+}
+
+.all {
+  width: 1400px;
+}
+
+.main-wraper {
+  width: 1050px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.left-wraper {
+  background-color: #fff;
+  border: 2px solid #000;
+  width: 275px;
+  height: 650px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.left-wraper p {
+  font-size: 20px;
+}
+
+.arro-button {
+  background-color: #fff;
+  border: none;
+  border-right: 3px solid #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: -60px;
+  position: absolute;
+  top: 30px;
+  left: 320px;
+}
+
+.right-wraper {
+  background-image: url("game2.51e70975.jpg");
+  background-repeat: no-repeat;
+  background-size: 710px 630px;
+  width: 712px;
+  height: 500px;
+}
+
+.img2 {
+  width: 711px;
+  height: 273px;
+  position: absolute;
+  top: 377px;
+  left: 449px;
+}
+
+.img3 {
+  width: 546px;
+  height: 221px;
+  position: absolute;
+  top: 254px;
+  left: 523px;
+}
+
+.equation {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 52px;
+  padding: 0 10px;
+  display: flex;
+  position: absolute;
+  top: 25px;
+  left: 695px;
+}
+
+.main-spain {
+  background-color: #93dede;
+  border-radius: 10px;
+  width: 80px;
+  height: 45px;
+  margin: 3px 10px;
+  position: relative;
+}
+
+.span1 {
+  position: absolute;
+  left: 7px;
+}
+
+.span2 {
+  position: absolute;
+  top: 4px;
+  left: 6px;
+}
+
+.span3 {
+  position: absolute;
+  top: 11px;
+  left: 25px;
+}
+
+.span4 {
+  position: absolute;
+  top: 23px;
+  left: 8px;
+}
+
+.button-wraper {
+  justify-content: space-evenly;
+  width: 150px;
+  display: flex;
+  position: absolute;
+  top: 25px;
+  right: 185px;
+}
+
+.button-wraper button {
+  background-color: #fff;
+  border: 2px solid #828282;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.left-operator-button {
+  justify-content: space-evenly;
+  width: 220px;
+  display: flex;
+  position: absolute;
+  top: 400px;
+  left: 452px;
+}
+
+.operator-button {
+  background-color: #fff;
+  border: 1px solid #828282;
+  border-radius: 10px;
+  width: 35px;
+  height: 40px;
+  font-size: 35px;
+}
+
+.input-box {
+  background-color: #fff;
+  border: 1px solid #828282;
+  border-radius: 10px;
+  width: 50px;
+  height: 40px;
+}
+
+.right-operator-button {
+  justify-content: space-evenly;
+  width: 220px;
+  display: flex;
+  position: absolute;
+  top: 400px;
+  right: 195px;
+}
+
+.left-equation-box-wraper {
+  justify-content: space-evenly;
+  width: 150px;
+  display: flex;
+  position: absolute;
+  top: 250px;
+  left: 560px;
+}
+
+.left-equation {
+  background-color: #87ee8c;
+  border: 3px solid green;
+  border-radius: 10px;
+  width: 65px;
+  height: 65px;
+}
+
+.span11 {
+  font-size: 25px;
+  position: absolute;
+  left: 30px;
+}
+
+.span22 {
+  font-size: 25px;
+  position: absolute;
+  top: 4px;
+  left: 28px;
+}
+
+.span44 {
+  font-size: 25px;
+  position: absolute;
+  top: 28px;
+  left: 30px;
+}
+
+.span55 {
+  font-size: 25px;
+  position: absolute;
+  top: 16px;
+  left: 50px;
+}
+
+.left-equation-button {
+  background-color: #0000;
+  border: #0000;
+  border-radius: 10px;
+  margin: 0;
+  padding-top: 2px;
+  padding-left: 10px;
+  font-size: 35px;
+}
+
+.right-equation-box-wraper {
+  justify-content: space-evenly;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  top: 250px;
+  right: 320px;
+}
+
+.right-equation {
+  background-color: #87ee8c;
+  border: 3px solid green;
+  border-radius: 33px;
+  width: 65px;
+  height: 65px;
+}
+
+.span111 {
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.two-input {
+  background-color: #f5f5f5;
+  border: 3px solid #ababab;
+  border-radius: 10px;
+  width: 70px;
+  min-height: 65px;
+  font-size: 30px;
+  display: flex;
+}
+
+.two-input2 {
+  background-color: #f5f5f5;
+  border: 3px solid #ababab;
+  border-radius: 10px;
+  width: 70px;
+  height: 65px;
+  font-size: 30px;
+  display: flex;
+}
+
+.check-button {
+  position: absolute;
+  top: 535px;
+  left: 754px;
+}
+
+.check-button button {
+  color: #f5f5f5;
+  background-color: #363eee;
+  border: 1px solid #f5f5f5;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+.chdiv {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  top: 130px;
+  left: 670px;
+}
+
+.chdiv p {
+  text-align: center;
+}
+
+.main-spain-ch {
+  background-color: #93dede;
+  border-radius: 10px;
+  width: 80px;
+  height: 45px;
+  margin: 3px 10px;
+  position: relative;
+}
+
+.span1-ch {
+  position: absolute;
+  left: -65px;
+}
+
+.span2-ch {
+  position: absolute;
+  top: 4px;
+  left: -67px;
+}
+
+.span3-ch {
+  width: 100px;
+  position: absolute;
+  top: 11px;
+  left: -50px;
+}
+
+.span4-ch {
+  position: absolute;
+  top: 23px;
+  left: -65px;
+}
+
+.green {
+  border: 4px solid green;
+}
+
+.red {
+  border: 4px solid red;
+}
+
+.infocs {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 300px;
+  left: 700px;
+}
+
+.backgrund {
+  opacity: .2;
+  background-color: #000;
+  position: absolute;
+  inset: 0;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
